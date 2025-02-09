@@ -1,0 +1,68 @@
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  color: white;
+  overflow: auto;
+  white-space: normal;
+  border-radius: 10px;
+  background-color: Sienna;
+  font-family: Monospace;
+  min-height: auto;
+  font-size: 20px;
+  text-align: center;
+  Padding:  200px;
+}
+.ProfileP{
+    border-radius: 50%
+}
+.text7{
+    color: black;
+    font-weight:bold;
+    font-size:50px;
+}
+.text6{
+    font-size: 25px;
+    color: Lime;
+}
+.text5{
+    color: black;
+    font-size: 30px;
+}
+.text4{
+    color: black;
+}
+ .text2{
+     font-size: 30px;
+     color: black;
+ }
+ .text1.5{
+     font-size: 20px;
+ }
+.text1 {
+    color:Lime;
+    font-size: 50px;
+}
+
+/* Media Queries for Tablet and Desktop */
+@media screen and (min-width: 640px) {
+    .linksContainer{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 90%;
+    }
+    
+    .imageHolder{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        width: 85%;
+    }
+    
